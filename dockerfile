@@ -50,6 +50,8 @@ RUN echo '#!/bin/sh' > /docker-entrypoint.sh && \
 # Expose port 80
 EXPOSE 80
 
+
+# cmd
 # Use custom entrypoint
 ENTRYPOINT ["/docker-entrypoint.sh"]
 CMD ["nginx", "-g", "daemon off;"]
