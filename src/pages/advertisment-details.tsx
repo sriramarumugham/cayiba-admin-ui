@@ -297,7 +297,7 @@ export const AdvertisementDetails = ({
                     <div>
                       <p className="font-medium">Posted By</p>
                       <p className="text-sm text-gray-600">
-                        {advertisement.uploadedBy.fullName || "N/A"}
+                        {advertisement?.uploadedBy?.fullName || "N/A"}
                       </p>
                     </div>
                   </div>
